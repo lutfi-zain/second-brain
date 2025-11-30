@@ -22,7 +22,7 @@ A Model Context Protocol (MCP) server that provides a personal, searchable memor
 
 1. **Clone and setup**:
    ```bash
-   git clone https://github.com/lutfi-zain/second-brain.git
+   git clone <repository-url>
    cd secondbrain-mcp
    npm install
    ```
