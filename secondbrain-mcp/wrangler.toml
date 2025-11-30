@@ -1,0 +1,23 @@
+﻿name = "secondbrain-mcp"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "d1_secondbrain"
+database_id = "06dfaccd-c319-4f09-944d-cef0ad3e25c4"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "a28831470a0b4d2fbb3609bfa25e46b5"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "vec_secondbrain_memories"
+
+[ai]
+binding = "AI"
+
+[[routes]]
+pattern = "brain.maftia.tech/*"
+zone_name = "maftia.tech"

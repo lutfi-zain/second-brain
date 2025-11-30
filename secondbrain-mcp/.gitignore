@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+.env*
+.wrangler/
+.dev.vars
+
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
